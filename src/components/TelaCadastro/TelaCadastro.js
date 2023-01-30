@@ -22,7 +22,7 @@ function TelaCadastro(props) {
           <Input id="descricao" />
         </StyledLabel>
         <SendButton onClick={() => props.mudarTela(3)}>Cadastrar</SendButton>
-        <BackToLoginButton onClick={() => props.mudarTela(1)}>Já possuo um cadastro</BackToLoginButton>
+        <BackToLoginButton onClick={() => props.mudarTela(4)}>Já possuo um cadastro</BackToLoginButton>
       </Form>
     </FormContainer>
   );
